@@ -17,23 +17,12 @@ function johnLennonFacts (arrayOfFacts) {
 
 function iLoveTheBeatles (num) {
   var emptyArray1 = [];
-  var i = 0;
   do {
-    i++;
     emptyArray1.push("I love the Beatles!");
+    num++
   } while (num < 15);
   return emptyArray1;
 }
 
 
 
-var result = "";
-var i = 0;
-
-do {
-  i = i + 1;
-  result = result + i;
-} while (i < 5);
-
-console.log(result);
-// expected result: "12345"
